@@ -1,0 +1,28 @@
+#video-demo-container {
+	width: 158px;
+
+	#video-element {
+		display: block;
+		// max-width: 400px;
+		// height: 127px;
+		margin-bottom: 21px;
+		width: 158px;
+	}
+	#thumbnail-container {
+		// display: none;
+		#download-link {
+			display: none;
+		}
+	}
+	#canvas-element {
+		display: none;
+	}
+	#upload-button {
+		width: 150px;
+		display: none;
+		margin: 20px auto;
+	}
+	#file-input {
+		display: none;
+	}
+}
