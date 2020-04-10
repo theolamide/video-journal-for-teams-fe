@@ -70,7 +70,7 @@ export const createTeam = (data) => (dispatch) => {
 		.catch((err) => dispatch({ type: constants.CREATE_TEAM_FAILURE, payload: err.response }));
 };
 
-// FETCH TEAMS FOR USER
+// FETCH TEAMS FOR USERR
 export const fetchUserTeams = (userId) => (dispatch) => {
 	dispatch({ type: constants.FETCH_USER_TEAMS_START });
 	AxiosWithAuth()
