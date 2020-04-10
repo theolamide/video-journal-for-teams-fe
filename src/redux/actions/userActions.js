@@ -5,7 +5,7 @@ import { notification } from "antd";
 
 // REGISTER A NEW USER
 export const registerUser = (applicant) => (dispatch) => {
-	axios.defaults.baseURL
+	
 	console.log("base url", axios.baseURL)
 	console.log("base url default", axios.defaults.baseURL)
 	axios
