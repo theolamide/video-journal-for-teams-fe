@@ -69,7 +69,8 @@ const Register = ({isLogged, clearError, registerUser, setError, error}) => {
         setError(validationError.errors);
       });
   };
-
+  console.log('env: ', process.env.REACT_APP_ENV)
+  console.log('dbenv: ', process.env.REACT_APP_PRODUCTION_URL)
   return (
       <>
         <AuthSider>
